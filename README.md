@@ -76,6 +76,10 @@ The project successfully predicted taxi fares with a high degree of accuracy, de
 
 The model, evaluated using metrics like **MSE**, **MAE**, and **Near-Exact Accuracy**, showed good performance and provided reliable and useful predictions for taxi fares.
 
+## About the Data
+
+The dataset used in this project includes information on various factors affecting taxi fares such as the day of the week, time of day, weather conditions, and traffic levels. In the dataset, the `Trip_Price` column initially had missing values (NaN) which represented the taxi fare that needed to be predicted. These missing values were predicted using a Random Forest Regression model, and the resulting predicted values were then assigned back to the `Trip_Price` column of the test data .
+
 ## Future Work
 
 While the model performs well with the available features, there are several opportunities for improvement:
