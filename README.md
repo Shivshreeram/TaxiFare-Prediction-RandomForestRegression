@@ -105,7 +105,3 @@ To run this project, the following libraries are required:
 
 This project was developed by ShivShreeram.
 
-Sophomore ,UG
-
-Date - 14/12/2024
-
